@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+
+body {
+    background: #31393c;
+    margin: 0px;
+}
+
+.navbar {
+    height: 30px;
+    text-align: center;    
+}
+
+.navbar a {
+    color: black;
+    height:40px;
+    font-size: 28px;
+    background: #48d1cc;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    background: #FFFFFF;
+}
+
+#fname {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 800;
+    font-size: 96px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+#lname {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 800;
+    font-size: 96px;
+    margin-left: 300px;
+    color: #f79824;
+}
