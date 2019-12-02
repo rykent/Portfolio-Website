@@ -10,6 +10,13 @@ body {
     text-align: center;    
 }
 
+.main h1 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 800;
+    font-size: 96px;
+    color: #f79824;
+}
+
 .navbar a {
     color: black;
     height:40px;
@@ -25,16 +32,23 @@ body {
 }
 
 #fname {
-    font-family: 'Open Sans', 'sans-serif';
-    font-weight: 800;
-    font-size: 96px;
     margin-left: 100px;
     color: #FFFFFF;
 }
 #lname {
-    font-family: 'Open Sans', 'sans-serif';
-    font-weight: 800;
-    font-size: 96px;
+    
     margin-left: 300px;
-    color: #f79824;
+}
+
+.box {
+    float: left;
+    width: 33%;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+.box a {
+    font-size: 35px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
