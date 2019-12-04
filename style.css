@@ -3,11 +3,15 @@
 body {
     background: #31393c;
     margin: 0px;
+    width: 100%;
 }
 
 .navbar {
     height: 30px;
-    text-align: center;    
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;    
 }
 
 .main h1 {
@@ -42,9 +46,10 @@ body {
 
 .box {
     float: left;
-    width: 33%;
+    width: 28%;
+    height: 250px;
     color: white;
-    margin: 20px;
+    margin: 2.5%;
     text-align: center;
 }
 .box h2 {
@@ -54,4 +59,40 @@ body {
 .box a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.center { margin: 0 auto; }
+.slide-content { margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+#main-slide {
+    background: #31393c;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#hard-choices-slide {
+    background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
+    color: #FFFFFF;
+    height: 600px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+#other-slide {
+    background: #31393c;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#css-slide {
+    background: url('Projects/img/.png') 50% 0 no-repeat fixed;
+    color: #FFFFFF;
+    height: 600px;
+    padding: 170px 0 0 0;
+    background-size: cover;
 }
