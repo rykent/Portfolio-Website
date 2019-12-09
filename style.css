@@ -9,7 +9,7 @@ body {
 .navbar {
     height: 30px;
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;    
 }
@@ -36,12 +36,21 @@ body {
 }
 
 #fname {
-    margin-left: 100px;
+    margin-top: 100px;
     color: #FFFFFF;
 }
 #lname {
-    
-    margin-left: 300px;
+    margin-left: 500px;
+}
+
+.triangle1 {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f79824;
+    border-right: 100px solid transparent;
 }
 
 .box {
@@ -61,7 +70,6 @@ body {
     text-decoration: none;
 }
 
-.center { margin: 0 auto; }
 .slide-content { margin: 0 auto; width: 960px; }
 .clear { clear: both; }
 
@@ -70,19 +78,19 @@ body {
     height: 600px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 20px 0;
 }
 
 #hard-choices-slide {
     background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
     height: 600px;
-    padding: 170px 0 0 0;
+    padding: 140px 0 0 0;
     background-size: cover;
 }
 
 #other-slide {
-    background: #31393c;
+    background: #FFFFFF;
     height: 600px;
     margin: 0 auto;
     overflow: hidden;
@@ -90,9 +98,28 @@ body {
 }
 
 #css-slide {
-    background: url('Projects/img/.png') 50% 0 no-repeat fixed;
+    background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
     height: 600px;
-    padding: 170px 0 0 0;
-    background-size: cover;
+    padding: 100px 0 0 0;
+    background-size: 27%;
+}
+
+#hard-choices-slide a {
+    color: #FFFFFF;
+}
+#hard-choices-slide a:hover {
+    color: black;
+    background: #FFFFFF;
+}
+
+#hard-choices-text {
+    font-size: 20px;
+    padding: 8px;
+    width: 350px;
+    background: #31393c;
+    display: block;
+    position: relative;
+    left: 75spx;
+    top: -40px;
 }
