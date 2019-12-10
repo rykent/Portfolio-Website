@@ -45,12 +45,30 @@ body {
 
 .triangle1 {
     position: absolute;
-    top: 500px;
+    top: 550px;
     left: 0;
     width: 0;
     height: 0;
     border-bottom: 100px solid #f79824;
     border-right: 100px solid transparent;
+}
+
+.line {
+    height: 1px;
+    background: #FFFFFF;
+    width: 700px;
+    position: absolute;
+    left: 0px;
+    top: 210px;
+}
+
+.line2 {
+    height: 1px;
+    background: #FFFFFF;
+    width: 850px;
+    position: absolute;
+    right: -350px;
+    top: 420px;
 }
 
 .box {
@@ -75,7 +93,7 @@ body {
 
 #main-slide {
     background: #31393c;
-    height: 600px;
+    height: 700px;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px 0;
@@ -84,25 +102,9 @@ body {
 #hard-choices-slide {
     background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 600px;
+    height: 700px;
     padding: 140px 0 0 0;
     background-size: cover;
-}
-
-#other-slide {
-    background: #FFFFFF;
-    height: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 200px 0;
-}
-
-#css-slide {
-    background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
-    color: #FFFFFF;
-    height: 600px;
-    padding: 100px 0 0 0;
-    background-size: 27%;
 }
 
 #hard-choices-slide a {
@@ -122,4 +124,32 @@ body {
     position: relative;
     left: 75spx;
     top: -40px;
+}
+
+#other-slide {
+    background: #FFFFFF;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#css-slide {
+    background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
+    color: #FFFFFF;
+    height: 700px;
+    padding: 100px 0 0 0;
+    background-size: 20%;
+}
+
+#css-slide-text {
+    font-size: 20px;
+    padding: 8px;
+    width: 300px;
+    background: #FFFFFF;
+    color: black;
+    display: block;
+    position: relative;
+    left: 600px;
+    top: -400px;
 }
