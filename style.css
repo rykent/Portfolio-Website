@@ -45,7 +45,7 @@ body {
 
 .triangle1 {
     position: absolute;
-    top: 550px;
+    top: 100vh;
     left: 0;
     width: 0;
     height: 0;
@@ -71,6 +71,8 @@ body {
     top: 420px;
 }
 
+/*Projects page CSS*/
+
 .box {
     float: left;
     width: 28%;
@@ -93,7 +95,7 @@ body {
 
 #main-slide {
     background: #31393c;
-    height: 700px;
+    height: 100vh;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px 0;
@@ -102,7 +104,7 @@ body {
 #hard-choices-slide {
     background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 700px;
+    height: 100vh;
     padding: 140px 0 0 0;
     background-size: cover;
 }
@@ -128,7 +130,7 @@ body {
 
 #other-slide {
     background: #FFFFFF;
-    height: 600px;
+    height: 100vh;
     margin: 0 auto;
     overflow: hidden;
     padding: 200px 0;
@@ -137,7 +139,7 @@ body {
 #css-slide {
     background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 700px;
+    height: 100vh;
     padding: 100px 0 0 0;
     background-size: 20%;
 }
@@ -150,6 +152,8 @@ body {
     color: black;
     display: block;
     position: relative;
-    left: 600px;
+    left: 700px;
     top: -400px;
 }
+
+/*Contact Page CSS*/
