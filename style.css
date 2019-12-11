@@ -155,3 +155,30 @@ body {
     left: 700px;
     top: -400px;
 }
+
+.box1 {
+
+    float: left;
+    width: 28%;
+    height: 250px;
+    color: white;
+    margin: 0 7% 0 15%;
+    text-align: center;
+}
+.box2 {
+    float: left;
+    width: 28%;
+    height: 250px;
+    color: white;
+    margin: 0 15% 0 7%;
+    text-align: center;
+}
+
+.boxV2 h2 {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.boxV2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
