@@ -104,7 +104,7 @@ body {
 #hard-choices-slide {
     background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 100vh;
+    height: 105vh;
     padding: 140px 0 0 0;
     background-size: cover;
 }
@@ -130,7 +130,7 @@ body {
 
 #other-slide {
     background: #FFFFFF;
-    height: 100vh;
+    height: 105vh;
     margin: 0 auto;
     overflow: hidden;
     padding: 200px 0;
@@ -139,7 +139,7 @@ body {
 #css-slide {
     background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 100vh;
+    height: 105vh;
     padding: 100px 0 0 0;
     background-size: 20%;
 }
