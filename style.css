@@ -118,9 +118,9 @@ body {
 }
 
 #hard-choices-text {
-    font-size: 20px;
+    font-size: 25px;
     padding: 8px;
-    width: 350px;
+    width: 400px;
     background: #31393c;
     display: block;
     position: relative;
@@ -129,11 +129,23 @@ body {
 }
 
 #other-slide {
-    background: #FFFFFF;
+    background: url('Projects/img/multi-go.png') 50% 0 no-repeat fixed;
     height: 105vh;
     margin: 0 auto;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 100px 0 0 0;
+    background-size: cover;
+}
+
+#other-slide-text {
+    font-size: 25px;
+    color: black;
+    width: 400px;
+    padding: 8px;
+    background: #FFFFFF;
+    display: block;
+    position: relative;
+    left: 410px;
 }
 
 #css-slide {
@@ -145,9 +157,9 @@ body {
 }
 
 #css-slide-text {
-    font-size: 20px;
+    font-size: 25px;
     padding: 8px;
-    width: 300px;
+    width: 400px;
     background: #FFFFFF;
     color: black;
     display: block;
