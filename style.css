@@ -14,6 +14,10 @@ body {
     left: 0;    
 }
 
+.main {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
 .main h1 {
     font-family: 'Open Sans', 'sans-serif';
     font-weight: 800;
@@ -120,7 +124,7 @@ body {
 #hard-choices-text {
     font-size: 25px;
     padding: 8px;
-    width: 400px;
+    width: 470px;
     background: #31393c;
     display: block;
     position: relative;
@@ -140,7 +144,7 @@ body {
 #other-slide-text {
     font-size: 25px;
     color: black;
-    width: 400px;
+    width: 470px;
     padding: 8px;
     background: #FFFFFF;
     display: block;
