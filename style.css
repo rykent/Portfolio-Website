@@ -203,14 +203,14 @@ body {
 /*About page CSS*/
 #intro-slide {
     background: #FFFFFF;
-    height: 105vh;
+    height: 700px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
 }
 #skills-slide {
     background: #31393c;
-    height: 120vh;
+    height: 900px;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px 0;
