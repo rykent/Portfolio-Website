@@ -40,6 +40,7 @@ body {
 }
 
 #fname {
+    margin-left: 300px;
     margin-top: 100px;
     color: #FFFFFF;
 }
@@ -69,10 +70,10 @@ body {
 .line2 {
     height: 1px;
     background: #FFFFFF;
-    width: 850px;
+    width: 1050px;
     position: absolute;
-    right: -350px;
-    top: 420px;
+    right: 0px;
+    top: 405px;
 }
 
 /*Projects page CSS*/
@@ -99,7 +100,7 @@ body {
 
 #main-slide {
     background: #31393c;
-    height: 100vh;
+    height: 105vh;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px 0;
@@ -197,4 +198,28 @@ body {
 .boxV2 a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+/*About page CSS*/
+#intro-slide {
+    background: #FFFFFF;
+    height: 105vh;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+#skills-slide {
+    background: #31393c;
+    height: 120vh;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#hobbies-slide {
+    background: url('https://c.pxhere.com/images/0e/70/528e9b3c8003bd5c4903305ac232-1440091.jpg!d') 50% 0 no-repeat fixed;
+    color: #FFFFFF;
+    height: 105vh;
+    padding: 140px 0 0 0;
+    background-size: cover;
 }
