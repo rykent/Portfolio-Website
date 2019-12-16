@@ -7,6 +7,7 @@ body {
 }
 
 .navbar {
+    z-index: 2;
     height: 30px;
     text-align: center;
     position: fixed;
@@ -50,12 +51,12 @@ body {
 
 .triangle1 {
     position: absolute;
-    top: 90vh;
+    top: 80vh;
     left: 0;
     width: 0;
     height: 0;
-    border-bottom: 100px solid #f79824;
-    border-right: 100px solid transparent;
+    border-bottom: 20vh solid #f79824;
+    border-right: 20vh solid transparent;
 }
 
 .line {
@@ -98,19 +99,25 @@ body {
 .slide-content { margin: 0 auto; width: 960px; }
 .clear { clear: both; }
 
+
 #main-slide {
     background: #31393c;
-    height: 105vh;
+    height: 110vh;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px 0;
+}
+
+#main-slide h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 #hard-choices-slide {
     background: url('Projects/img/hard-choices.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
     height: 105vh;
-    padding: 140px 0 0 0;
+    padding: 20px 0 100px 0;
     background-size: cover;
 }
 
@@ -138,7 +145,7 @@ body {
     height: 105vh;
     margin: 0 auto;
     overflow: hidden;
-    padding: 100px 0 0 0;
+    padding: 20px 0 100px 0;
     background-size: cover;
 }
 
@@ -153,11 +160,19 @@ body {
     left: 410px;
 }
 
+#other-slide a {
+    color: black;
+}
+#other-slide a:hover {
+    background: black;
+    color: white;
+}
+
 #css-slide {
     background: url('Projects/img/boxes2.png') 50% 0 no-repeat fixed;
     color: #FFFFFF;
-    height: 105vh;
-    padding: 100px 0 0 0;
+    height: 130vh;
+    padding: 20px 0 100px 0;
     background-size: 20%;
 }
 
@@ -169,7 +184,7 @@ body {
     color: black;
     display: block;
     position: relative;
-    left: 700px;
+    left: 650px;
     top: -400px;
 }
 
@@ -208,6 +223,10 @@ body {
     overflow: hidden;
     padding: 0;
 }
+#intro-slide h1 {
+    margin: 40px 0 0 0;
+}
+
 #skills-slide {
     background: #31393c;
     height: 900px;
